@@ -1,3 +1,5 @@
 # ML project 23/24-04 Implement the spacial pooler SDR Reconstruction
 
-For each synapse, it updates a dictionary (result) where the keys are the input indices of the synapses, and the values are the cumulative permanences.
+Permanence Calculation:
+
+The method accumulates permanences for each input index. If an input index is encountered multiple times, it adds up the permanence values.
