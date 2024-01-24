@@ -1,5 +1,5 @@
-# ML project 23/24-01 Implement the SDR Classifier
+# ML project 23/24-04 Implement the spacial pooler SDR Reconstruction
 
-Serialization and Deserialization:
+Constructor:
 
-The class supports serialization and deserialization using Cap'n Proto for efficient data interchange.
+The class has a constructor that takes an instance of the Connections class, presumably representing the HTM memory state.
