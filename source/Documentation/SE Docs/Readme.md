@@ -12,3 +12,8 @@ class SpatialPooler:
         def compute_overlap(self, input_pattern):
         overlap = np.dot(input_pattern, self.connections)
         return overlap
+
+        def inhibit_columns(self, overlap):
+        active_columns = np.argsort(overlap)[-int(self.sparsity * self.column_count):]
+        return active_columns
+        
