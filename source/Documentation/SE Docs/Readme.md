@@ -35,6 +35,5 @@ active_columns = spatial_pooler.inhibit_columns(overlap)
 # Reconstruct input pattern
 sdr_reconstructor = SDRReconstructor(input_size, column_count)
 reconstructed_pattern = sdr_reconstructor.reconstruct_input(active_columns)
-
 print("Original Input Pattern:", input_pattern)
 print("Reconstructed Input Pattern:", reconstructed_pattern)
