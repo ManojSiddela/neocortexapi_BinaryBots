@@ -21,3 +21,8 @@ class SDRReconstructor:
     def_init_(self, input_size, column_count):
         self.input_size = input_size
         self.column_count = column_count
+        
+    def reconstruct_input(self, active_columns):
+        input_pattern = np.zeros(self.input_size)
+        input_pattern[active_columns] = 1
+        return input_pattern
