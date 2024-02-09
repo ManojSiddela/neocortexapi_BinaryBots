@@ -1,3 +1,5 @@
-# ML project 23/24-04 Implement the spacial pooler SDR Reconstruction
+Understanding SDR 
 
-The final result is a dictionary where each key represents an input index, and the corresponding value represents the cumulative permanence from all currently active mini-columns.
+ Sparse Distributed Representations (SDRs) are binary vectors with a large number of elements, most of which are zeros. They are used to represent patterns in an efficient and distributed manner.
+
+Implement reconstruction logic: SDR reconstruction involves taking a sparse binary vector and reconstructing the original input pattern or a close approximation of it. This can involve various techniques, such as overlap-based reconstruction or using classifiers.
