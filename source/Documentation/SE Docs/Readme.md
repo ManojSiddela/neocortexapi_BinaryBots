@@ -8,3 +8,7 @@ class SpatialPooler:
         self.column_count = column_count
         self.connections = np.random.rand(input_size, column_count)
         self.sparsity = sparsity
+
+        def compute_overlap(self, input_pattern):
+        overlap = np.dot(input_pattern, self.connections)
+        return overlap
