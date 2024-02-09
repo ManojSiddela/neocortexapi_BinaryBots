@@ -16,4 +16,8 @@ class SpatialPooler:
         def inhibit_columns(self, overlap):
         active_columns = np.argsort(overlap)[-int(self.sparsity * self.column_count):]
         return active_columns
-        
+
+class SDRReconstructor:
+    def_init_(self, input_size, column_count):
+        self.input_size = input_size
+        self.column_count = column_count
