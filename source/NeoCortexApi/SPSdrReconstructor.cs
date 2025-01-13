@@ -13,6 +13,7 @@ namespace NeoCortexApi
     {
         private readonly Connections _mem;
 
+
         /// <summary>
         /// Creates the constructor for SDR reconstruction.
         /// </summary>
